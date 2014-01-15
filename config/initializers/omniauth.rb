@@ -1,3 +1,5 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :facebook, ENV['OMNIAUTH_PROVIDER_KEY'], ENV['OMNIAUTH_PROVIDER_SECRET']
 end
+
+#OMNIAUTH_PROVIDER_KEY=721367511214542 OMNIAUTH_PROVIDER_SECRET=ab24d0b259bcd19179443adeb162c6d1

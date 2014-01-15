@@ -1,0 +1,15 @@
+<%= simple_form_for(@track) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :title_album %>
+    <%= f.input :info %>
+    <%= f.input :buy_link %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+  <%= f.input :embed_link, label: 'https://soundcloud.com/theloveyourights/hey-now' %>
+
+<% end %>

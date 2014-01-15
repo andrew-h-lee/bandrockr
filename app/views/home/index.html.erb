@@ -1,4 +1,46 @@
 <h3>Home</h3>
-<% @users.each do |user| %>
-  <p>User: <%=link_to user.name, user %></p>
+
+<h1>Create Your Band Profile</h1>
+
+<% if !@band_profile %>
+        <div class="alert alert-warning">
+                <h4>You don't have a profile yet! Create your band profile now!</h4>
+                <br>
+                <%= link_to "Create profile", new_band_profile_path, class: 'btn btn-success' %>
+        </div>
+<% else %>
+
+        <h1><%= @band_profile.name %></h1>
+        <hr>
+        <h2>The latest photo</h2>
+        <% if !@photo.image.nil? %>
+            <%= image_tag @photo.image, class: 'img-rounded', width: '300px' %>
+        <% end %>
+        
+
+        <hr>
+        <h2>The next gig</h2>
+          <% if @gig %>
+            <div class="well">
+                <h4><%= @gig.title %></h4>
+                <p><strong>Date:</strong> <%= @gig.date.strftime("%e %b %Y")  %></p>
+                <p><strong>Time:</strong> <%= @gig.start_time.strftime("%l.%M%p") %></p>
+                <p><strong>Location:</strong> <%= @gig.location %></p>
+                <%= link_to "Reserve your tickets now", @gig.tickets_url, class: 'btn btn-success' %>
+
+            </div>
+          <% end %>
+        <hr>
+        <h2>Latest album</h2>
+          <% if @album %>
+            <%= @album.title %>
+          
+          <% end %>
+        <hr>
+        <h2>Latest track</h2>
+          <% if @track %>
+            <%= @track.embed_link.html_safe %>
+         
+          <% end %>
+        <hr>
 <% end %>

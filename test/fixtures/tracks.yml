@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title_album_id: 
+  info: MyText
+  buy_link: MyString
+
+two:
+  title_album_id: 
+  info: MyText
+  buy_link: MyString
