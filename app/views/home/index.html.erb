@@ -16,7 +16,7 @@
         <% if !@photo.image.nil? %>
             <%= image_tag @photo.image, class: 'img-rounded', width: '300px' %>
         <% end %>
-        
+
 
         <hr>
         <h2>The next gig</h2>
@@ -34,13 +34,13 @@
         <h2>Latest album</h2>
           <% if @album %>
             <%= @album.title %>
-          
+
           <% end %>
         <hr>
         <h2>Latest track</h2>
           <% if @track %>
             <%= @track.embed_link.html_safe %>
-         
+
           <% end %>
         <hr>
 <% end %>
