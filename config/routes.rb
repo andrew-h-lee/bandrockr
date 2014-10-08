@@ -1,5 +1,7 @@
 Bandrockr::Application.routes.draw do
+  mount RailsAdmin::Engine => '/admin-metal', as: 'rails_admin'
   get "admin" => "admin#index"
+
   resources :gigs
 
   resources :photos
