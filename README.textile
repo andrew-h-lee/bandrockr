@@ -29,6 +29,13 @@ This application requires:
 
 Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.html.
 
+h2. NOTE: ==Important Update==
+
+Also, install "rails_admin":https://github.com/sferik/rails_admin gem for this branch. 
+
+Click Link for further Instructions & configurations to your choosing. 
+
+
 h2. Database
 
 This application uses SQLite with ActiveRecord.
@@ -46,11 +53,6 @@ h2. Development
 h2. Getting Started
 
 To get started, please read this "tutorial":https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-BandRockr.md on how build this app step-by-step.
-
-h2. NOTE: Important Update
-
-Also, install "rails_admin":https://github.com/sferik/rails_admin gem. Click Link for further Instructions & configurations
-to your choosing. 
 
 h2. Documentation and Support
 
