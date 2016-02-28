@@ -1,16 +1,16 @@
-h1. Bandrockr
+# Bandrockr
 
 Welcome, This web app that is suited for a Rock Band; a content scheduling managment app.
 
-This application was generated with the "rails_apps_composer":https://github.com/RailsApps/rails_apps_composer gem provided by the "RailsApps Project":http://railsapps.github.io/.
+This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
-h2. Diagnostics
+### Diagnostics
 
 This application was built with recipes that are known to work together.
 
 This application was built with preferences that are NOT known to work together.
 
-If the application doesn't work as expected, please "report an issue":https://github.com/RailsApps/rails_apps_composer/issues and include these diagnostics:
+If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues and include these diagnostics):
 
 We'd also like to know if you've found combinations of recipes or preferences that do work together.
 
@@ -27,7 +27,7 @@ This application requires:
 * Ruby version 2.0.0
 * Rails version 4.0.1
 
-Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.html.
+Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html)
 
 h2. Database
 
@@ -45,11 +45,7 @@ h2. Development
 
 h2. Getting Started
 
-To get started, please read this "tutorial":https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-BandRockr.md on how build this app step-by-step.
-
-h2. Documentation and Support
-
-This is the only documentation.
+To get started, please read this [tutorial](https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-BandRockr.md) on how build this app step-by-step.
 
 
 h2. Contributing
@@ -65,6 +61,6 @@ If you add functionality to this application, create an alternative implementati
 
 h2. Credits
 
-Please give Credit to "Pete Argent":https://github.com/pedrogrande of the "Coder Factory":https://thecoderfactory.com/ of creating this app Tutorial.
+Please give Credit to "[Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://thecoderfactory.com/) of creating this app Tutorial.
 
 
