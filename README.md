@@ -1,6 +1,6 @@
 # Bandrockr
 
-Welcome, This web app that is suited for a Rock Band; a content scheduling managment app.
+Welcome, This web app is suited for a Rock Band; a content scheduling managment app.
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
