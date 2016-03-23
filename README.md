@@ -54,4 +54,4 @@ We'd also like to know if you've found combinations of recipes or preferences th
 
 ### Credits
 
-Please give Credit to "[Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://thecoderfactory.com/) of creating this app Tutorial.
+Please give Credit to "[Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://coderfactory.com/) of creating this app Tutorial.
