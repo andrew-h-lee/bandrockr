@@ -4,6 +4,9 @@ Welcome, This web app is suited for a Rock Band; a content scheduling managment 
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
+## Screenshots
+[Screenshots Link](http://)
+
 ## Prerequisites / Tools Used
 
 * Ruby version 2.0.0
