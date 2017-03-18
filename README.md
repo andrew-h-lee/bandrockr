@@ -24,10 +24,6 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 * Authentication: OmniAuth
 * Authorization: CanCan
 
-### Getting Started
-
-To get started, please read this [tutorial](https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-BandRockr.md) on how build this app step-by-step.
-
 ### Contributing
 
 If you make improvements to this application, please share with others.
@@ -51,4 +47,4 @@ We'd also like to know if you've found combinations of recipes or preferences th
 
 ### Credits
 
-Please give Credit to "[Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://coderfactory.com/) of creating this app Tutorial.
+Please give Credit to [Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://coderfactory.com/) of creating this app Tutorial.
